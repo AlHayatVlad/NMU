@@ -17,34 +17,34 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	int n;
-	printf("\nВведите количество стран:");
+	printf("\nInput count country:");
 	scanf("%d", &n);
 	country *strana = new country[n];
 	float plotnost[1], density[1], density2[1];
 	for (int i = 0; i<1; i++) {
-		printf("\nВведите плотность страны:");
+		printf("\nInput density country:");
 		scanf("%f", &density[i]);
 	}
 	for (int i = 0; i<1; i++) {
-		printf("\nВведите название страны:");
+		printf("\nInput name country:");
 		scanf("%s", &strana[i].pais);
-		printf("Введите площадь страны:");
+		printf("Input area country:");
 		scanf("%d", &strana[i].area);
-		printf("Введите количество населения страны:");
+		printf("Input population:");
 		scanf("%d", &strana[i].gente);
-		printf("Введите официальный язык страны:");
+		printf("Input language:");
 		scanf("%s", &strana[i].lengua);
-		printf("Введите валюту страны:");
+		printf("Input currency:");
 		scanf("%s", &strana[i].dinero);
 		plotnost[i] = strana[i].gente / strana[i].area;
-		printf("Плотность:%.2fчел/км^2", plotnost[i]);
+		printf("density:%.2fчел/км^2", plotnost[i]);
 
 
 	}
 	for (int i = 0; i<1; i++) {
 		if (plotnost[i]>density[i])
-			printf("\nСписок стран:%s", strana[i].pais);
-		else printf("\nТакой страны в списке нет");
+			printf("\nlist countrys:%s", strana[i].pais);
+		else printf("\nThis country not it is list");
 	}
 	delete[] strana;
 	getch();

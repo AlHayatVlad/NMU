@@ -28,7 +28,7 @@ int main()
 		if (slova[i] == '.')break;
 	}
 
-	printf("Кол-во слов без 'у': %i", bezu);
+	printf("count words where not be 'у': %i", bezu);
 	getch();
 	return 0;
 }

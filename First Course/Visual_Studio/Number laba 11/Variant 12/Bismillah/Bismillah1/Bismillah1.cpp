@@ -30,22 +30,22 @@ int main()
 	printer printer[size];
 	int more_middle_speed = 0;
 	for (int i = 0; i < size; i++) {
-		cout << "Продукт №" << i + 1 << endl;
-		cout << "Название принтера: ";
+		cout << "Product №" << i + 1 << endl;
+		cout << "Name printer: ";
 		cin >> printer[i].name;
-		cout << "Производитель: ";
+		cout << "Firm: ";
 		cin >> printer[i].firm;
-		cout << "Скорость печати: ";
+		cout << "Speed printer: ";
 		cin >> printer[i].speed;
-		cout << "Размер буффера: ";
+		cout << "Size buffer: ";
 		cin >> printer[i].size_buffer;
-		cout << "Высота: ";
+		cout << "Height: ";
 		cin >> printer[i].gabarit.hight;
-		cout << "Ширина: ";
+		cout << "width: ";
 		cin >> printer[i].gabarit.width;
-		cout << "Длина: ";
+		cout << "leght: ";
 		cin >> printer[i].gabarit.legth;
-		cout << "Вес: ";
+		cout << "Weight: ";
 		cin >> printer[i].gabarit.weight;
 
 		more_middle_speed += printer[i].speed;
@@ -54,15 +54,15 @@ int main()
 	cout << endl << endl << endl;
 	for (int i = 0; i < size; i++) {
 		if (printer[i].speed > more_middle_speed) {
-			cout << "Фирма: " << printer[i].name << endl;
-			cout << "Производитель: " << printer[i].firm << endl;
-			cout << "Скорость: " << printer[i].speed << endl;
-			cout << "Размер буффера: " << printer[i].size_buffer << endl;
+			cout << "Name: " << printer[i].name << endl;
+			cout << "Firm: " << printer[i].firm << endl;
+			cout << "Speed: " << printer[i].speed << endl;
+			cout << "Size buffer: " << printer[i].size_buffer << endl;
 
-			cout << "Высота: " << printer[i].gabarit.hight << endl;
-			cout << "Ширина: " << printer[i].gabarit.width << endl;
-			cout << "Длинна: " << printer[i].gabarit.legth << endl;
-			cout << "Вес: " << printer[i].gabarit.weight << endl;
+			cout << "Height: " << printer[i].gabarit.hight << endl;
+			cout << "Width: " << printer[i].gabarit.width << endl;
+			cout << "Leght: " << printer[i].gabarit.legth << endl;
+			cout << "Weight: " << printer[i].gabarit.weight << endl;
 		}
 	}
 

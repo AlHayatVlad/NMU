@@ -16,7 +16,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int size;
-	printf("Сколько книг занести в базу? ");
+	printf("How moch books must input database? ");
 	scanf_s("%d", &size);
 
 	book *b = new book[size];
@@ -24,17 +24,17 @@ int main()
 	int i = 0;
 	while (i < size) {
 
-		printf("Введите автора: ");
+		printf("Input author: ");
 		cin >> b[i].author;
 
 
-		printf("Введите название книги: ");
+		printf("Input name book: ");
 		cin >> b[i].name;
 
-		printf("Введите издательство: ");
+		printf("Input publish: ");
 		cin >> b[i].publish;
 
-		printf("Введите год: ");
+		printf("Input year: ");
 		cin >> b[i].year;
 
 
@@ -42,14 +42,14 @@ int main()
 	}
 
 	string *author = new string;
-	printf("Какой автор нужен ? \n");
+	printf("What author must ? \n");
 	cin >> *author;
 	for (int i = 0; i < size; i++) {
 		if ((b[i].year < 1990) && (b[i].author == *author)) {
-			printf("Автор : %s\n", b[i].author);
-			printf("Название книги : %s\n", b[i].name);
-			printf("Издательство : %s\n", b[i].publish);
-			printf("Год издания : %d\n", b[i].year);
+			printf("Author : %s\n", b[i].author);
+			printf("Name book : %s\n", b[i].name);
+			printf("Publish : %s\n", b[i].publish);
+			printf("Publish year : %d\n", b[i].year);
 		}
 	}
 

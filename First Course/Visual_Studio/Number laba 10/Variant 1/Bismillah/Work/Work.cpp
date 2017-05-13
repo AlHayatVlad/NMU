@@ -12,7 +12,7 @@ void main()
 		cin >> letter[index];
 		index++;
 	}
-	cout  << "Количество символов:" << index << endl;
+	cout  << "Count simvols:" << index << endl;
 	delete[] letter;
 	system("pause");
 }

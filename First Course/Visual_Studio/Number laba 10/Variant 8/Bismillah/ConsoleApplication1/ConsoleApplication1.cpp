@@ -22,7 +22,7 @@ int main()
 	for (int i = 0; i < 10; i++) {
 		cout << suggestion[i];
 	}
-	cout << endl << "Количество знаков препинания: " << count;
+	cout << endl << "count  punctuations: " << count;
 		_getch();
 		return 0;
 }

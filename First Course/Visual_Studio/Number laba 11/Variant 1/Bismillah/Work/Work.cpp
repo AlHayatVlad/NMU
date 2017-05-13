@@ -15,27 +15,27 @@ typedef struct {
 
 
 void input(product *mass, int index) {
-	cout << "---------ПРОДУКТ ПО СЧЕТУ: " << index << endl;
-	cout << "Название продукта: ";
+	cout << "---------number product №: " << index << endl;
+	cout << "Name product: ";
 	cin >> mass->name;
-	cout << "Стоимость товара: ";
+	cout << "price product: ";
 	cin >> mass->cost;
-	cout << "Страна-производитель товара: ";
+	cout << "firm product: ";
 	cin >> mass->origin_country;
-	cout << "Конечный срок реализации товара: ";
+	cout << "realese product: ";
 	cin >> mass->dedline;
-	cout << "Количество имеющегося товара: ";
+	cout << "count be product: ";
 	cin >> mass->count;
 	cout << endl << endl;
 }
 void output(product *mass, int index) {
 	if ((2017 - mass->dedline) < 1) {
 		cout << "---------ПРОДУКТ ПО СЧЕТУ: " << index << endl;
-		cout << "Название продукта: " << mass->name << endl;
-		cout << "Стоимость товара: " << mass->cost << endl;
-		cout << "Страна-производитель товара: " << mass->origin_country << endl;
-		cout << "Конечный срок реализации товара: " << mass->dedline << endl;
-		cout << "Количество имеющегося товара: " << mass->count << endl << endl;
+		cout << "name product: " << mass->name << endl;
+		cout << "count product: " << mass->cost << endl;
+		cout << "firm product: " << mass->origin_country << endl;
+		cout << "realese product: " << mass->dedline << endl;
+		cout << "count  be product: " << mass->count << endl << endl;
 	}
 	
 
