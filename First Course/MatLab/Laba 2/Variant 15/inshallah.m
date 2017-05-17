@@ -3,10 +3,17 @@ a = 0;
 b = 5;
 h = 0.5;
 %Задание аргумента
-x = a:h:b;
+X = a:h:b;
 %Рассчет функции
-y = abs(sin(x)) + exp(x / 2);
-z = 5 * x.^1.5 + sin(x);
+Y = abs(sin(x)) + exp(x / 2);
+Z = 5 * x.^1.5 + sin(x);
 %Вывод графика.
-subplot(2,1,1),plot(x,y,'-');
-subplot(2,1,2),plot(x,z);
+figure(1);
+plot(X,Y,X,Z);
+%Включаем координатную сетку
+grid on;
+figure(2);
+plot(X,Y,'-',X,Z,':');
+grid on;
+subplot(2,1,1),bar(X,Y);
+subplot(2,1,2),bar(X,Z);
