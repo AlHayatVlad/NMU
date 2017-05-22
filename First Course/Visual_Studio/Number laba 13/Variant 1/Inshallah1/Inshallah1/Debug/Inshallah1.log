@@ -1,4 +1,0 @@
-﻿  stdafx.cpp
-  Inshallah1.cpp
-Inshallah1.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl input(int *,int)" (?input@@YAXPAHH@Z) в функции _main
-P:\NMU\First Course\Visual_Studio\Number laba 13\Variant 1\Inshallah1\Debug\Inshallah1.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
