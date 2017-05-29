@@ -1,7 +1,0 @@
-﻿  Bismillah.cpp
-p:\visual studio\nmu\number laba 10\variant 12\bismillah\bismillah\bismillah.cpp(16): warning C4996: 'getche': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getche. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\conio.h(455): note:  см. объявление "getche"
-p:\visual studio\nmu\number laba 10\variant 12\bismillah\bismillah\bismillah.cpp(32): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\conio.h(452): note:  см. объявление "getch"
-  Bismillah.vcxproj -> P:\Visual Studio\NMU\Number laba 10\Variant 12\Bismillah\Debug\Bismillah.exe
-  Bismillah.vcxproj -> P:\Visual Studio\NMU\Number laba 10\Variant 12\Bismillah\Debug\Bismillah.pdb (Partial PDB)

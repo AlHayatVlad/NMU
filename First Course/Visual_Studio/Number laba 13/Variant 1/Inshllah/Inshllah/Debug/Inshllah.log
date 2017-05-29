@@ -1,9 +1,0 @@
-﻿  Inshllah.cpp
-p:\nmu\first course\visual_studio\number laba 13\variant 1\inshllah\inshllah\inshllah.cpp(13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
-p:\nmu\first course\visual_studio\number laba 13\variant 1\inshllah\inshllah\inshllah.cpp(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
-p:\nmu\first course\visual_studio\number laba 13\variant 1\inshllah\inshllah\inshllah.cpp(19): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1192): note:  см. объявление "fscanf"
-  Inshllah.vcxproj -> P:\NMU\First Course\Visual_Studio\Number laba 13\Variant 1\Inshllah\Debug\Inshllah.exe
-  Inshllah.vcxproj -> P:\NMU\First Course\Visual_Studio\Number laba 13\Variant 1\Inshllah\Debug\Inshllah.pdb (Partial PDB)

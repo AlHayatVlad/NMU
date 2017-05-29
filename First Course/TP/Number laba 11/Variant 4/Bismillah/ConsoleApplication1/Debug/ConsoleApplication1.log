@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+p:\visual studio\nmu\number laba 11\variant 4\consoleapplication1\consoleapplication1\consoleapplication1.cpp(14): warning C4996: 'getche': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getche. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\conio.h(455): note:  см. объявление "getche"
+p:\visual studio\nmu\number laba 11\variant 4\consoleapplication1\consoleapplication1\consoleapplication1.cpp(27): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\conio.h(452): note:  см. объявление "getch"
+  ConsoleApplication1.vcxproj -> P:\Visual Studio\NMU\Number laba 11\Variant 4\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> P:\Visual Studio\NMU\Number laba 11\Variant 4\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Partial PDB)

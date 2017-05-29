@@ -1,5 +1,0 @@
-﻿  stdafx.cpp
-  Work.cpp
-p:\visual studio\nmu\number laba 11\variant 7\work\work\work.cpp(49): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "std::string"
-  Work.vcxproj -> P:\Visual Studio\NMU\Number laba 11\Variant 7\Work\Debug\Work.exe
-  Work.vcxproj -> P:\Visual Studio\NMU\Number laba 11\Variant 7\Work\Debug\Work.pdb (Partial PDB)
